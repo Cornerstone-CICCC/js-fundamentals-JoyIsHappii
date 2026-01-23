@@ -40,3 +40,5 @@ let types = eatsPlants && eatAnimals ? "omnivore" : //tt
              "undefined"; //ff
 console.log (types);
 
+//done
+
