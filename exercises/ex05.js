@@ -27,9 +27,9 @@ Then print N/A to the console because the measurements don't all match up with o
 
 */
 
-const shirtWidth = "30";
-const shirtLength = "30";
-const shirtSleeve = "8.63";
+var shirtWidth = "26";
+var shirtLength = "33";
+var shirtSleeve = "9.63";
 
 let size = "NA";
 
@@ -51,5 +51,14 @@ if (
     && 30 < shirtLength && shirtLength <= 31
     && 8.63 < shirtSleeve && shirtSleeve <= 8.88) {
     size ="XL";
-} 
+} else if (24 < shirtWidth && shirtWidth <= 26
+    && 31 < shirtLength && shirtLength <= 33
+    && 8.88 < shirtSleeve && shirtSleeve <= 9.63) {
+    size ="2XL";
+} else if (26 < shirtWidth && shirtWidth <= 28
+    && 33 < shirtLength && shirtLength <= 34
+    && 9.63 < shirtSleeve && shirtSleeve <= 10.13) {
+    size ="3XL";
+}
 console.log (size);
+//done
