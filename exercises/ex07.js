@@ -22,7 +22,7 @@ TIP: To print out the average salary with commas (i.e. 59,124), use the toLocale
 
 */
 
-const degree = "no high school diploma";
+const degree = "a Doctoral degree";
 let salary;
 
 switch (degree) {
@@ -38,5 +38,16 @@ switch (degree) {
     case "a Bachelor's degree":
          salary = 59124;
         break;
+    case "a Master's degree":
+         salary = 69732;
+        break;
+    case "a Professional degree":
+         salary = 89960;
+        break; 
+    case "a Doctoral degree":
+         salary = 84396;
+        break;    
 }
 console.log (`In 2015, a person with ${degree} earned an average of ${salary.toLocaleString("en-US")}/year.`)
+
+//done
