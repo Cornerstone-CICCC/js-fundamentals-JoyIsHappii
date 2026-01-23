@@ -15,3 +15,28 @@ Use the eatsPlants and eatsAnimals variables to test your code.
 
 If eatsPlants equals true and eatsAnimals equals false, then herbivore should be printed to the console. 
 */
+
+/*
+const eatsPlants = true;
+const eatAnimals = false;
+
+let types = "undefined"; //ff
+
+if (eatsPlants && eatAnimals) {
+    types = ("omnivore") //tt
+} else if (eatsPlants) {
+    types = ("herbivore"); //tf
+} else if (eatAnimals) {
+    types = ("carnivore"); //ft
+}
+console.log (types)
+*/
+
+const eatsPlants = true;
+const eatAnimals = false;
+let types = eatsPlants && eatAnimals ? "omnivore" : //tt
+             eatsPlants ? "carnivore" : //tf
+             eatAnimals ? "herbivore": //ft
+             "undefined"; //ff
+console.log (types);
+

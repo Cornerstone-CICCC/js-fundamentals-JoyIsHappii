@@ -26,3 +26,30 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
+
+const shirtWidth = "30";
+const shirtLength = "30";
+const shirtSleeve = "8.63";
+
+let size = "NA";
+
+if (
+    17 < shirtWidth && shirtWidth <= 18
+     && 27 < shirtLength && shirtLength <= 28 
+     && 8 < shirtSleeve && shirtSleeve <= 8.13) {
+    size ="S";
+} else if (
+    18 < shirtWidth && shirtWidth <= 20 
+    && 28 < shirtLength && shirtLength <= 29
+    && 8.13 < shirtSleeve && shirtSleeve<= 8.38) {
+    size ="M";
+} else if (20 < shirtWidth && shirtWidth <= 22 
+    && 29 < shirtLength && shirtLength <= 30 
+    && 8.38 < shirtSleeve && shirtSleeve <= 8.63) {
+    size ="L";
+} else if (22 < shirtWidth && shirtWidth <= 24
+    && 30 < shirtLength && shirtLength <= 31
+    && 8.63 < shirtSleeve && shirtSleeve <= 8.88) {
+    size ="XL";
+} 
+console.log (size);
