@@ -14,3 +14,5 @@ const myLaugh = function(max) {
 }
 
 console.log(myLaugh(3)+"!")
+
+//done
