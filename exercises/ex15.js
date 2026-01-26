@@ -14,3 +14,5 @@ function ageCalculator (name, yearOfBirth, currentYear) {
     console.log (`${name} is ${age} years old.`)
 }
 ageCalculator("John", 1983, 2015);
+
+//done

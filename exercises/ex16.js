@@ -35,3 +35,15 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+//console.log(makeLine(10))
+
+function buildTriangle(max) {
+  var height = "";
+  for (var i=1; i <= max; i++){
+    height += makeLine(i)
+  }
+  return height;
+}
+
+console.log(buildTriangle(10))
+//done
