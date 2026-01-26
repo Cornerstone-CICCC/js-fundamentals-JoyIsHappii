@@ -8,11 +8,6 @@ The ageCalculator function should return a string explaining how old the person 
 "John is 32 years old."
 */
  
-/*const ageCalculator = {
-    name: "John",
-    yearOfBirth: 1983,
-    currentYear: 2015
-}*/
 
 function ageCalculator (name, yearOfBirth, currentYear) {
     let age = currentYear - yearOfBirth;
