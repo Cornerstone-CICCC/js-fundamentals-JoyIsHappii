@@ -44,7 +44,7 @@ Mr. Kalehoff did it in the ballroom with the poison!
 const suspect = "Ms. Van Cleve";
 const room = "gallery";
 
-let weapon = "";
+let weapon;
 let solved = false;
 
 if (room === "dining room" && suspect === "Mr. Parkes") {

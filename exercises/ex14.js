@@ -15,7 +15,8 @@ row: 25 - seat: 99
 //x = row, y = seat
 
 for (let x = 0; x <= 25; x++) {
-    for (let y = 0; y <= 100; y++){
+    for (let y = 0; y <= 99; y++){
         console.log (`row: ${x} - seat: ${y}`)
     }
 }
+//done
