@@ -6,20 +6,20 @@ Prints: "I am happy, haha!"
 */
 
 
-const myLaugh = function (max) {
-    var laugh = "";
+const laugh = function (max) {
+    var myLaugh= "";
     for (let i = 0; i < max; i++) {
-        laugh += "ha";
+        myLaugh += "ha";
     }
-    return laugh
-}
-console.log(myLaugh(2))
+    return myLaugh
+    }
+/* console.log(laugh(2)); */
 
-const emotion = function () {
-    return "happy";
+const emotion = function (feeling, laugh) {
+    var preWord = "I am ";
+    console.log(preWord + feeling + ", " + laugh + "!");
 }
-console.log(emotion())
 
-function conbined(){
-    console.log (emotion,myLaugh)
-}
+emotion("happy",laugh(2));
+
+//done
