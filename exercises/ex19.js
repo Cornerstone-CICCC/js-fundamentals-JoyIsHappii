@@ -13,9 +13,13 @@ const myLaugh = function (max) {
     }
     return laugh
 }
-//console.log(myLaugh(2))
+console.log(myLaugh(2))
 
-/* const emotion = function () {
+const emotion = function () {
     return "happy";
 }
-//console.log(emotion()) */
+console.log(emotion())
+
+function conbined(){
+    console.log (emotion,myLaugh)
+}
