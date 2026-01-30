@@ -17,4 +17,4 @@ rainbow.push("Purple")
 rainbow.splice (2,1, "Yellow", "Green");
 console.log(rainbow);
 
-//w
+//done
