@@ -24,4 +24,4 @@ for (let i=0; i<ingredients.length; i++) {
 ingredients.reverse()
 console.log(ingredients)
 
-//w
+//done
