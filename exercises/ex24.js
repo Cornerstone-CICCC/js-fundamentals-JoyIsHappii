@@ -20,3 +20,8 @@ console.log(lastIndexOf([ 5, 5, 5 ], 5), "=?", 2);
 console.log(lastIndexOf([], 3), "=?", -1);
 
 */
+
+const myArray = [0, 1, 4, 1, 2 ];
+for (let i=0; i<myIndex.length; i++) {
+    
+}
