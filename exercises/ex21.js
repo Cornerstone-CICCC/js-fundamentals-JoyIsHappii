@@ -13,6 +13,6 @@ prices.splice (3,1,33.33);
 prices.splice (7,1,77.77);
 console.log(prices)
 
-//w
+//done
 
 
