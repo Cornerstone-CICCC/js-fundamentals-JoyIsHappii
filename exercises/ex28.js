@@ -37,5 +37,5 @@ facebookProfile.deleteMessage(0)
 facebookProfile.addFriend()
 facebookProfile.removeFriend()
 console.log (facebookProfile)
-//w
+//done
 
