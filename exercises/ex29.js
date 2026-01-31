@@ -27,4 +27,4 @@ for (let menu of donuts) {
   console.log (`${menu.type} donuts cost $${menu.cost} each`)
 }
 
-//w
+//done
